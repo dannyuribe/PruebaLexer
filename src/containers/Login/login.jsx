@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./login.css";
 
 const Login = (props) => {
   const [login, setLogin] = useState({
@@ -23,9 +24,9 @@ const Login = (props) => {
   };
 
   return (
-    <div>
+    <div className="login-card">
       <h1>Login</h1>
-      <form className="login-form" onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit}>
         <div>
           <label htmlFor="email">Email:</label>
           <input
