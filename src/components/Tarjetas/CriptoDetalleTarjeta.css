@@ -11,3 +11,12 @@
   display: block;
   margin-bottom: 8px;
 }
+
+.contButtonCD{
+  width: 80%;
+  margin: auto;
+  text-align: left;
+}
+.buttonCriptoDetalle :link {
+  text-decoration: none;
+}
